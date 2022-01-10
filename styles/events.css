@@ -1,0 +1,53 @@
+#events-list{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.event-container{
+    width: 40%;
+    border: 1px solid green;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cancel,
+.will-go{
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.will-go{
+    background-color: #7ae898;
+}
+
+.cancel{
+    background-color: #C70000;
+    color: #FFF;
+}
+
+.cancel:hover{
+    background-color: red;
+}
+
+.will-go:hover{
+    background-color: #FFF;
+}
+
+.invisible{
+    display: none;
+}

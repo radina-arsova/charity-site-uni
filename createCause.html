@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/createCause.css">
+    <script src="./scripts/causes.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class='full-page'>
+        <header>
+            <div class="header-container">
+                <section class=logo>
+                    <img class='logo-img' src='./images/hands-holding-heart-icon.png' />
+                    <a href="./home.html" class='logo-text'>YouForOthers</a>
+                </section>
+                <nav class="navigation">
+                    <a href="./causes.html" class="nav-item button">Our causes</a>
+                    <a href="./events.html" class="nav-item button">Events</a>
+                    <a href="" class="nav-item button">About us</a>
+                    <a href="./createCause.html" class="nav-item button">Create cause</a>
+                </nav>
+            </div>
+        </header>
+        <div class="main-container">
+            <div class="title-container form">
+                <h4>Title</h4>
+                <input type="text" id="title" />
+                <div class="error" id="title-error"></div>
+            </div>
+            <div class="description-container form">
+                <h4>Description</h4>
+                <textarea id="description" rows="4" cols="30" maxlength=125></textarea>
+                <div class="error" id="description-error"></div>
+            </div>
+            <div class="image-container form">
+                <h4>Image URL</h4>
+                <input type="text" id="image" />
+            </div>
+            <button onclick="createCause()" class="save-button">Save</button>
+        </div>
+    </div>
+</body>
+
+</html>

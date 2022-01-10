@@ -1,0 +1,53 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 40%;
+}
+
+.form h4{
+    text-align: center;
+}
+
+.form input, .form textarea{
+    width: 100%;
+}
+
+.form input{
+    height: 25px;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding-left: 7px;
+}
+
+.form textarea{
+    border: 1px solid green;
+    border-radius: 10px;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+
+.error{
+    height: 20px;
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.save-button{
+    width: 30%;
+    background-color: #7ae898;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.save-button:hover{
+    background-color: #FFF;
+}

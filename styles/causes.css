@@ -1,0 +1,89 @@
+#causes-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.cause-container{
+    display: flex;
+    width: 90%;
+    border: 1px solid green;
+    border-radius: 10px;
+    min-height: 150px;
+    margin-bottom: 20px;
+}
+
+.cause-container img{
+    max-width: 20%;
+    border-radius: 10px;
+}
+
+.description-container{
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.description-container div{
+    margin-top: 10px;
+}
+
+.description-container h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cause-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.donate-button{
+    background: #7ae898;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 70%;
+    cursor: pointer;
+}
+
+.donate-button:hover{
+    background-color: #fff;
+}
+
+.delete-button{
+    background: #C70000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.delete-button:hover{
+    background-color: red;
+}
+
+
+.input-donate{
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+    margin-bottom: 2px;
+    padding: 0 3px;
+}
+
+.invisible{
+    display: none;
+}
