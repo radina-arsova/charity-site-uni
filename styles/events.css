@@ -48,6 +48,13 @@
     background-color: #FFF;
 }
 
-.invisible{
-    display: none;
+@media only screen and (max-width: 500px) {
+    #events-list{
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .event-container{
+        width: 90%;
+    }
 }

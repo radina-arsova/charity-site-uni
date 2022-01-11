@@ -51,3 +51,44 @@
     margin-right: 1.5em;
     height: 20px;
 }
+
+@media only screen and (max-width: 700px) {
+    .logo{
+        margin: 20px 0;
+    }
+
+    .header-container{
+        flex-direction: column;
+        height: 120px;
+    }
+
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .nav-item{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .navigation{
+        flex-direction: column;
+    }
+
+    .header-container{
+        height: 270px
+    }
+
+    .nav-item{
+        margin-top: 10px;
+        justify-content: center;
+    }
+}
